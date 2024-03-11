@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>El Yucateco</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav container-fluid">
+        <figure class="nav_logo">
+          <a href="index.html"><img src="./imgYucateco/Logo Yucateco.png" alt="logo El Yucateco" class="nav_img"/></a>
+        </figure>
+        <section class="nav_menu">
+          <ul class="nav_links">
+            <li class="nav_list"><a href="#">Inicio</a></li>
+            <li class="nav_list"><a href="nosotros.html">Nosotros</a></li>
+            <li class="nav_list"><a href="menu.html">Menú</a></li>
+            <li class="nav_list">Carrito</li>
+          </ul>
+        </section>
+        <label for="menu" class="nav_label">
+          <input type="checkbox" id="menu">
+        </label>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <h1>Disfruta cada día de nuestras deliciosas tortas. <br>¡Son tan ricas que no dejarás ni el xix!</h1>
+      </div>
+      <div class="container-fluid galeria">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imgYucateco/menu/tortaAsado.jpg" class="imagenes" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./imgYucateco/carrusel/hamburguesa.jpg" class="imagenes" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./imgYucateco/carrusel/aguasFrescas.jpg" class="imagenes" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./imgYucateco/carrusel/pastel.jpg" class="imagenes" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="container-fluid encargos">
+        <h2>Realiza tu encargo</h2>
+        <p>Estamos encantados de ofrecerte el mejor servicio para tu evento.<br> Contáctanos vía Whatsapp o llámanos para cotizar o agendar tu pedido.</p>
+        <img src="./imgYucateco/eventos.jpg" alt="eventos">
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid row">
+        <h4>Horario</h4>
+        <p>De Lunes a Viernes 7:00 AM a 1:00 PM</p>
+      </div>
+      <div class="container-fluid row">
+        <h4>Teléfono</h4>
+        <p>+52 9994256884</p>
+      </div>
+      <div class="container-fluid row">
+        <h4>Ubicación</h4>
+        <p>C. 44 474A entre 53 y 51 Centro 97000 - Mérida, Yucatán</p>
+      </div>
+      <div class="container-fluid copyright">
+        <p>©2024 El Yucateco. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
